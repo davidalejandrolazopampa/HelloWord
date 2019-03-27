@@ -1,3 +1,5 @@
 import sys
 import os
-print("Hola mundo david")
+name=input()
+print("Hola mundo ",name)
+print("que tal estas")
