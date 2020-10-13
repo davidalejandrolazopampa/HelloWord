@@ -66,7 +66,7 @@ int main()
 ### Introducción 
 A diferencia del Sequential File, el ISAM usa un index, la cual nos permite acceder a un registro en particular y el proceso de secuencial a partir del inicio del archivo en cualquier otro registro del archivo.
 Cada registro en el archivo se identifica por medio de un número en este caso el index que se tomaría como la llave primaria.
-![](img/2.png)
+![](img/3.png)
 ### Ejemplo
 - [x] Si necesitas buscar un nombre en el directorio telefónico buscas el índice de la A-Z.
 - [x] Sistema de Nóminas para registrar datos de empleado en específico.
