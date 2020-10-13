@@ -14,6 +14,9 @@ En el archivo secuencial, se almacenan los registros uno tras otro.
 El primer registro almacenado se coloca al principio del archivo.
 El segundo se almacena inmediatamente después.
 ![](img/1.png)
+### Ejemplo
+- [x] Podemos tener un control de registro por orden de llegada de asistentes.
+- [x] Gestionando base de datos.
 ### Ventajas y Desventajas
 * Ventajas 
 - [x] La ventaja más importante de la técnica de organización secuencial de archivos es la capacidad de acceso al siguiente registro rápidamente.
@@ -54,13 +57,6 @@ int main()
 	cout<<”Hola mundo”<<endl;
 }
 ```
-### Resultado
-#### 1. Inserción
-#### 2. Búsqueda
-#### Métricas
-#### Análisis 
-### Pruebas de uso
-### [Video](https://www.youtube.com/watch?v=noAGPQbdsRI)
 
 ## Indexed Sequential Access Method(ISAM)
 ### Introducción 
@@ -74,7 +70,9 @@ Cada registro en el archivo se identifica por medio de un número en este caso e
 * Ventajas 
 - [x] Permite procesar el archivo secuencial por orden lógico y también procesarlo al azar.
 - [x] La organización indexada es conveniente para archivos con mediana volatilidad, actividad variable y tamaño relativamente estable.
+- [x] Permite acceso directo al registro.
 * Desventajas
+- [x] Ocupa más espacios en el disco que el Sequential File, debido al uso del área de índices.
 - [x] Los index requieren espacios extra, se necesita una doble búsqueda; una al archivo index y otra a la data.
 - [x] Los registros tienen que tener una longitud fija.
 - [x] El archivo debe estar separado por un dispositivo de acceso aleatorio: **no se puede utilizar con cintas magnéticas**.
@@ -102,7 +100,15 @@ int main()
 ```
 ### Resultado
 #### 1. Inserción
+* Sequential File:
+
+* Indexed Sequential Access Method(ISAM):
+
 #### 2. Búsqueda
+* Sequential File:
+
+* Indexed Sequential Access Method(ISAM):
+
 #### Métricas
 #### Análisis 
 ### Pruebas de uso
