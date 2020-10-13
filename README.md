@@ -5,12 +5,15 @@
 |  1 | 201810010 | Barrios Silva, Alonso Winston |
 |  2 | 201810010 | Lazo Pampa, David Alejandro |
 ## Objetivo
+Conocer las dos diferentes estrucutras de archivos secuenciales, con la diferencia que uno usa indexacion.
+Tener en cuenta las ventajas y desventajas de cada estructura.
 ## Sequential File
 ### Introducción
 Es la forma más simple de almacenar y recuperar registros de un archivo.
 En el archivo secuencial, se almacenan los registros uno tras otro.
 El primer registro almacenado se coloca al principio del archivo.
-El segundo se almacena inmediatamente después. 
+El segundo se almacena inmediatamente después.
+![](img/1.png)
 ### Ventajas y Desventajas
 * Ventajas 
 - [x] La ventaja más importante de la técnica de organización secuencial de archivos es la capacidad de acceso al siguiente registro rápidamente.
@@ -63,6 +66,7 @@ int main()
 ### Introducción 
 A diferencia del Sequential File, el ISAM usa un index, la cual nos permite acceder a un registro en particular y el proceso de secuencial a partir del inicio del archivo en cualquier otro registro del archivo.
 Cada registro en el archivo se identifica por medio de un número en este caso el index que se tomaría como la llave primaria.
+![](img/2.png)
 ### Ejemplo
 - [x] Si necesitas buscar un nombre en el directorio telefónico buscas el índice de la A-Z.
 - [x] Sistema de Nóminas para registrar datos de empleado en específico.
